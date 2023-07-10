@@ -1,6 +1,6 @@
 ![image](https://github.com/Harasisco/CTF/assets/87074807/ba7c4ecb-5d04-457a-86a0-e0267c3a20ad "Description")
  
-## Solution
+# Solution
 
 #### we get a text file contain a python byte code assembly:
 
@@ -93,7 +93,7 @@ None
            54 BINARY_XOR
 ```
 #### so we can solve it in two different ways :
-### first solution:
+## first solution:
 
 #### using [cyberchef](https://gchq.github.io/CyberChef/) to generate the key:
 
@@ -105,8 +105,10 @@ None
 
 #### And we got the flag.
 
-### second solution:
+## second solution:
+
 #### writing a python script:
+
 ```python
 import base64
 from cryptography.fernet import Fernet
