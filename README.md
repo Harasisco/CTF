@@ -11,7 +11,7 @@
 
 - When the file is (PIE), then it will have a different address each time you run it to handle that:
   - Get the offset from static analysis then:
-  - use 'piebase' to see the base address of the binary
+  - use `piebase` to see the base address of the binary
   - use `breakva 0xoffset` to set a breakpoint
  
 - To see the memory map use the command `vmmap`
